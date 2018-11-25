@@ -1,0 +1,43 @@
+<ion-header color="warning">
+  <ion-toolbar color="warning">
+    <ion-buttons slot="start">
+      <ion-back-button href="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Estadísticas del jugador</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-label><strong>Nombre: </strong> {{ Player.nombre }} </ion-label>
+  <ion-label><strong>Descripción: </strong> {{ Player.descripcion }} </ion-label>
+
+  <ion-list lines="full">
+    <ion-item>
+      <ion-label><strong>Goles: </strong> {{ Player.goals }}
+        <ion-icon name="football" color="light"></ion-icon>
+      </ion-label>
+      <ion-icon (click)="goalsPlus(p)" name="add" color="light"></ion-icon>
+      <ion-icon (click)="goalsLess(p)" name="remove" color="light"></ion-icon>
+    </ion-item>
+  </ion-list>
+  <ion-list lines="full">
+    <ion-item>
+      <ion-label><strong>Faltas: </strong> {{ Player.faltas }}
+        <ion-icon name="clipboard" color="light"></ion-icon>
+      </ion-label>
+      <ion-icon (click)="faltasPlus(p)" name="add" color="light"></ion-icon>
+      <ion-icon (click)="faltasLess(p)" name="remove" color="light"></ion-icon>
+    </ion-item>
+  </ion-list>
+  <ion-list lines="full">
+      <ion-item>
+        <ion-label><strong>Partidos jugados: </strong> {{ Player.pj }}
+          <ion-icon name="person" color="light"></ion-icon>
+        </ion-label>
+        <ion-icon (click)="pjPlus(p)" name="add" color="light"></ion-icon>
+        <ion-icon (click)="pjLess(p)" name="remove" color="light"></ion-icon>
+      </ion-item>
+    </ion-list>
+
+  <ion-button color="warning" (click)="savePlayer(p)" expand="full">Guardar</ion-button>
+</ion-content>

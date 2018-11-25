@@ -1,0 +1,44 @@
+<ion-header color="warning">
+  <ion-toolbar color="warning">
+    <ion-title>
+      Lista de Jugadores
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-button href="/menu" routerDirection="backward">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button href="/edit" routerDirection="forward">
+        <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list lines="full">
+    <ion-item *ngFor="let p of Players">
+      <ion-label>{{ p.nombre }}
+        <ion-icon slot="end" *ngIf="p.category === 1" name="hand"></ion-icon>
+        <ion-icon slot="end" *ngIf="p.category === 2" name="person"></ion-icon>
+        <ion-icon slot="end" *ngIf="p.category === 3" name="briefcase"></ion-icon>
+      </ion-label>
+      <ion-icon class="edit" (click)="editPlayer(p.id)" name="create" color="light"></ion-icon>
+      <ion-icon (click)="deleteDialog(p.nombre, p.id)" name="trash" color="light"></ion-icon>
+    </ion-item>
+  </ion-list>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-button expand="full" color="warning" (click)="descendiente()">Descendiente</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button expand="full" color="warning" (click)="ascendente()">Ascendente</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  
+</ion-content>
