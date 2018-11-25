@@ -58,6 +58,6 @@ Observamos que las estadísticas han cambiado satisfactoriamente.
 
 ### Borrar jugador
 
-En el caso de que algún jugador no nos guste por el ello de que no marque goles o cometa muchas faltas, o porque queramos, tenemos la opción de "despedirlo".
+En el caso de que algún jugador no nos guste por el ello de que no marque goles o cometa muchas faltas, o porque queramos, tenemos la opción de "despedirlo", para ello vamos a "Lista de jugadores" y haciendo click en 🗑 nos permmitira borrarlo, pero con un previo aviso de confirmación.
 
 <img src="" width="300px">
