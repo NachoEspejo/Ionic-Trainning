@@ -14,17 +14,12 @@ Con las opciones de volver atrás ⬅ y crear un jugador ➕
 
 <img src="https://github.com/NachoEspejo/Ionic-Trainning/blob/master/img/LJ.png" width="300px">
 
-### Crear jugador
+### Crear y editar jugador
 
 Aqui podremos introducir los datos de nuestro jugador o entrenador y pulsando el botón "Guardar" nos lo guardará.
+Disponemos de la opcion de editar su información, si hubieramos cometido algún fallo en ✏.
 
 <img src="https://github.com/NachoEspejo/Ionic-Trainning/blob/master/img/CJ.png" width="300px">
-
-### Edición del jugador
-
-Disponemos de la opcion de editar su información, si hubieramos cometido algún fallo.
-
-<img src="https://github.com/NachoEspejo/Ionic-Trainning/blob/master/img/EJ.png" width="300px">
 
 ### Jugador Creado
 
