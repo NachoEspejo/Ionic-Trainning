@@ -54,5 +54,4 @@ En el caso de que algún jugador no nos guste por el ello de que no marque goles
 <img src="https://github.com/NachoEspejo/Ionic-Trainning/blob/master/img/BJS.png" width="300px">
 
 ### APK
-
- *[APK](https://drive.google.com/open?id=1VnzJczWymbZevHItsstfIhC2j8Hxiylg)
+[Ionic-Trainning](https://drive.google.com/open?id=1VnzJczWymbZevHItsstfIhC2j8Hxiylg)
