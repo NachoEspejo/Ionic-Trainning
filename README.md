@@ -48,7 +48,7 @@ En el caso de editar un entrenador, solo tendremos la posibilidad de editar los 
 
 ### Borrar jugador
 
-En el caso de que algún jugador no nos guste por el ello de que no marque goles o cometa muchas faltas, o porque queramos, tenemos la opción de "despedirlo", para ello vamos a "Lista de jugadores" y haciendo click en 🗑 nos permmitira borrarlo, pero con un previo aviso de confirmación.
+En el caso de que algún jugador no nos guste por el ello de que no marque goles o cometa muchas faltas, o porque queramos, tenemos la opción de "despedirlo", para ello vamos a "Lista de jugadores" y haciendo click en 🗑 nos permitirá borrarlo, pero con un previo aviso de confirmación.
 
 <img src="https://github.com/NachoEspejo/Ionic-Trainning/blob/master/img/BJ.png" width="300px">
 <img src="https://github.com/NachoEspejo/Ionic-Trainning/blob/master/img/BJS.png" width="300px">
